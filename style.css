@@ -44,6 +44,49 @@ body {
   height: 106px;
 }
 
+.logo_reg{
+  margin: 12px 0px 0px 28px;
+  width: 320px;
+  height: 106px;
+}
+
+.regcontent{
+  margin-top: 20px;
+}
+
+.reg_dob{
+  margin-left: -273px;
+  color: rgb(76, 75, 75);
+  font-size :14px;
+}
+.reg_gender{
+  margin:0px 0px 20px -305px;
+  color: rgb(76, 75, 75);
+  font-size :14px;
+}
+.reg_main
+{
+  display: flex;
+  margin-left: -135px;
+  gap: 5px;
+}
+
+.h5_reg{
+margin: 15px 10px 15px 10px;
+}
+
+.hr_line_reg{
+   border: d grey;
+  width: 600px;
+  margin: 20px 0px;
+}
+
+input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  appearance: radio;
+}
+
 h3 {
   color: black;
   font-size: 30px;
@@ -62,6 +105,18 @@ h3 {
   background-color: white;
   width: 396px;
   height: 370px;
+  box-shadow: -10px -10px 15px rgb(0, 0, 0, 0.1), 10px 10px 15px rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.i_container_reg {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 700px;
+  height: 875px;
   box-shadow: -10px -10px 15px rgb(0, 0, 0, 0.1), 10px 10px 15px rgb(0, 0, 0, 0.1);
   border-radius: 10px;
 }
